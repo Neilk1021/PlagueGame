@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb23933fc33725640825b8eff9f29549, type: 3}
+  m_Name: AmongSus
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 545fa5de-9b9a-40c4-84db-f1d7a999394b
+    PortName: Next
+    TargetNodeGuid: 492fb059-e881-44f7-b7ac-a75ed03f14cc
+  - BaseNodeGuid: 492fb059-e881-44f7-b7ac-a75ed03f14cc
+    PortName: Sus
+    TargetNodeGuid: cf406d12-42b6-49a1-9f8f-f99bedd2ebc0
+  - BaseNodeGuid: 492fb059-e881-44f7-b7ac-a75ed03f14cc
+    PortName: (Not) Sus
+    TargetNodeGuid: 07fd7165-dfa6-4f9a-bfd8-738fa25d4720
+  - BaseNodeGuid: cf406d12-42b6-49a1-9f8f-f99bedd2ebc0
+    PortName: :)
+    TargetNodeGuid: 43eecf59-a9fc-4511-9bb4-824d534f29de
+  - BaseNodeGuid: cf406d12-42b6-49a1-9f8f-f99bedd2ebc0
+    PortName: Kill
+    TargetNodeGuid: 7ca337e6-ab61-497a-8d8d-f6ed5e13153c
+  - BaseNodeGuid: cf406d12-42b6-49a1-9f8f-f99bedd2ebc0
+    PortName: <3
+    TargetNodeGuid: e0844c8c-b7b6-4091-ab3d-1d1d827a85a6
+  DialogueNodeData:
+  - GUID: 492fb059-e881-44f7-b7ac-a75ed03f14cc
+    DialogueText: Impsoster
+    CharacterName: Among Us
+    CharacterPortrait: {fileID: 21300000, guid: 59e084613d604ca448d29bf15fb8d75b, type: 3}
+    Position: {x: 260.66666, y: 200}
+  - GUID: 07fd7165-dfa6-4f9a-bfd8-738fa25d4720
+    DialogueText: Seth
+    CharacterName: Among Us
+    CharacterPortrait: {fileID: 21300000, guid: 0a6429b41434485489197e1164631f6d, type: 3}
+    Position: {x: 713.3333, y: 278.66666}
+  - GUID: cf406d12-42b6-49a1-9f8f-f99bedd2ebc0
+    DialogueText: Akil
+    CharacterName: Among Us
+    CharacterPortrait: {fileID: 21300000, guid: 59e084613d604ca448d29bf15fb8d75b, type: 3}
+    Position: {x: 713.3333, y: 98}
+  - GUID: e0844c8c-b7b6-4091-ab3d-1d1d827a85a6
+    DialogueText: love
+    CharacterName: Among Us
+    CharacterPortrait: {fileID: 21300000, guid: 0a6429b41434485489197e1164631f6d, type: 3}
+    Position: {x: 1156.6666, y: -54}
+  - GUID: 7ca337e6-ab61-497a-8d8d-f6ed5e13153c
+    DialogueText: hate
+    CharacterName: Among Us
+    CharacterPortrait: {fileID: 21300000, guid: 85ebd3cafae0be24f8aaf780045d14b2, type: 3}
+    Position: {x: 1156.6666, y: 98}
+  - GUID: 43eecf59-a9fc-4511-9bb4-824d534f29de
+    DialogueText: happy
+    CharacterName: Among Us
+    CharacterPortrait: {fileID: 21300000, guid: 59e084613d604ca448d29bf15fb8d75b, type: 3}
+    Position: {x: 1156.6666, y: 261.3333}

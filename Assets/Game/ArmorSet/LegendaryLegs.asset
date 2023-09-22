@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2e842cc0c297b4ab31a52b2f761489, type: 3}
+  m_Name: LegendaryLegs
+  m_EditorClassIdentifier: 
+  itemCatagory: 1
+  rarity: 3
+  Name: Holy Leggings
+  Desc: 
+  Value: 300
+  StackSize: 1
+  Icon: {fileID: 21300000, guid: 600efcd1e359c604b823dcc06b09c4fc, type: 3}
+  PlayerCursor: {fileID: 21300000, guid: 8b56dd3c68ad16841b664ad9a83345d8, type: 3}
+  UUID: e7ef3f61-467c-4441-9399-f3cccda553c6
+  equipmentSlot: 1
+  hand: 0
+  ArmorPieces: 10000000290000003d000000
+  helmetType: 0
+  Empty: 0
+  Color_Primary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Leather_Primary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Leather_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Metal_Primary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Metal_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Metal_Dark: {r: 0, g: 0, b: 0, a: 0}
+  ArmorResitancePoints: 0
+  ArmorResitancePct: 0

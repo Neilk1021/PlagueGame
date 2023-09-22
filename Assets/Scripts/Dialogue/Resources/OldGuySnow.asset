@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb23933fc33725640825b8eff9f29549, type: 3}
+  m_Name: OldGuySnow
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: b11d9956-bb11-4d44-a8ca-ff6c80d5e6e0
+    PortName: Next
+    TargetNodeGuid: a34f9b26-5a24-430e-b660-6774b7b056a3
+  - BaseNodeGuid: a34f9b26-5a24-430e-b660-6774b7b056a3
+    PortName: ...
+    TargetNodeGuid: 2cdb8199-1d03-4f6d-a287-3d580d29f4b7
+  - BaseNodeGuid: a34f9b26-5a24-430e-b660-6774b7b056a3
+    PortName: Hi
+    TargetNodeGuid: f31810d9-9222-4eeb-bcc8-65227a935142
+  DialogueNodeData:
+  - GUID: 2cdb8199-1d03-4f6d-a287-3d580d29f4b7
+    DialogueText: Well are you going to say something
+    CharacterName: <color=#a73bd9>???</color>
+    CharacterPortrait: {fileID: 21300000, guid: 3e488596641c67a41ab34a82ca182742, type: 3}
+    Position: {x: 698, y: 58.666664}
+  - GUID: f31810d9-9222-4eeb-bcc8-65227a935142
+    DialogueText: 'Oh... hello you startled me, I thought I was up here alone '
+    CharacterName: <color=#a73bd9>???</color>
+    CharacterPortrait: {fileID: 21300000, guid: 0567efa7ea779fb4abc2dafed8983f50, type: 3}
+    Position: {x: 698, y: 224}
+  - GUID: a34f9b26-5a24-430e-b660-6774b7b056a3
+    DialogueText: <i><b>!!!!!</b></i>
+    CharacterName: <color=#a73bd9>???</color>
+    CharacterPortrait: {fileID: 21300000, guid: 2d74245c2a6d20d4f947f4095b27376a, type: 3}
+    Position: {x: 206.66667, y: 200}

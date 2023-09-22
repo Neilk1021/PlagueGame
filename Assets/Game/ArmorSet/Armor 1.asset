@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2e842cc0c297b4ab31a52b2f761489, type: 3}
+  m_Name: Armor 1
+  m_EditorClassIdentifier: 
+  itemCatagory: 1
+  rarity: 0
+  Name: 
+  Desc: 
+  Value: 0
+  StackSize: 1
+  Icon: {fileID: 21300000, guid: 32d8a16b7c73f824089f281a7bf17880, type: 3}
+  PlayerCursor: {fileID: 0}
+  UUID: 3
+  equipmentSlot: 3
+  hand: 0
+  ArmorPieces: 050000002100000035000000
+  helmetType: 0
+  Empty: 0
+  Color_Primary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Leather_Primary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Leather_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Metal_Primary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Metal_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  Color_Metal_Dark: {r: 0, g: 0, b: 0, a: 0}
+  ArmorResitancePoints: 5
+  ArmorResitancePct: 5

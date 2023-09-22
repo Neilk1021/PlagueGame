@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d055dd102945c343a6e094cbc1caa72, type: 3}
+  m_Name: Spawn Target Self Prefab
+  m_EditorClassIdentifier: 
+  prefabEffect: {fileID: 6093137267491592333, guid: 8eabcb6e155d29b48b7a33adc50f390c, type: 3}
+  destroyDelay: 0.6
+  spawnDelay: 0.2

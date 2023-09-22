@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb23933fc33725640825b8eff9f29549, type: 3}
+  m_Name: OldGuy1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 842af016-5d28-4911-a481-7ff0b2bebcaf
+    PortName: Next
+    TargetNodeGuid: 99e2dcd3-cb77-4421-85fb-1bab633d7ebd
+  - BaseNodeGuid: 11255f3a-fc3c-4f97-9fb7-e771df6e32cf
+    PortName: LLLLLLL
+    TargetNodeGuid: 2e819980-bab0-417d-8281-388702131871
+  - BaseNodeGuid: 11255f3a-fc3c-4f97-9fb7-e771df6e32cf
+    PortName: WWWWW
+    TargetNodeGuid: bc9e2edb-95d4-4370-a9e6-f66f84a78ab8
+  - BaseNodeGuid: 99e2dcd3-cb77-4421-85fb-1bab633d7ebd
+    PortName: God kill me please
+    TargetNodeGuid: 11255f3a-fc3c-4f97-9fb7-e771df6e32cf
+  - BaseNodeGuid: 99e2dcd3-cb77-4421-85fb-1bab633d7ebd
+    PortName: Kill yourself
+    TargetNodeGuid: 4becb539-c5ef-44b0-8367-0fd6a6d324df
+  - BaseNodeGuid: 99e2dcd3-cb77-4421-85fb-1bab633d7ebd
+    PortName: HEHEHEHA
+    TargetNodeGuid: 045eea00-39d2-4e25-9577-62f8474b0a7d
+  DialogueNodeData:
+  - GUID: 11255f3a-fc3c-4f97-9fb7-e771df6e32cf
+    DialogueText: Why the long face
+    CharacterName: Old Guy
+    CharacterPortrait: {fileID: 21300000, guid: 9cfe80df213775444b5e25a5eb4f7703, type: 3}
+    Position: {x: 805.3333, y: 82.666664}
+  - GUID: 4becb539-c5ef-44b0-8367-0fd6a6d324df
+    DialogueText: How rude!
+    CharacterName: Old Guy
+    CharacterPortrait: {fileID: 21300000, guid: 9cfe80df213775444b5e25a5eb4f7703, type: 3}
+    Position: {x: 805.3333, y: 224}
+  - GUID: 045eea00-39d2-4e25-9577-62f8474b0a7d
+    DialogueText: HEHEHEHA
+    CharacterName: Old Guy
+    CharacterPortrait: {fileID: 21300000, guid: 9cfe80df213775444b5e25a5eb4f7703, type: 3}
+    Position: {x: 805.3333, y: 365.3333}
+  - GUID: bc9e2edb-95d4-4370-a9e6-f66f84a78ab8
+    DialogueText: Win
+    CharacterName: Old Guy
+    CharacterPortrait: {fileID: 21300000, guid: 9cfe80df213775444b5e25a5eb4f7703, type: 3}
+    Position: {x: 1308, y: 153.33334}
+  - GUID: 99e2dcd3-cb77-4421-85fb-1bab633d7ebd
+    DialogueText: Why hello there young traveler
+    CharacterName: Old Guy
+    CharacterPortrait: {fileID: 21300000, guid: 9cfe80df213775444b5e25a5eb4f7703, type: 3}
+    Position: {x: 250.66667, y: 200}
+  - GUID: 2e819980-bab0-417d-8281-388702131871
+    DialogueText: Loss
+    CharacterName: Old Guy
+    CharacterPortrait: {fileID: 21300000, guid: 9cfe80df213775444b5e25a5eb4f7703, type: 3}
+    Position: {x: 1308, y: -4}

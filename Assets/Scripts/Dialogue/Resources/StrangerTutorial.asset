@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb23933fc33725640825b8eff9f29549, type: 3}
+  m_Name: StrangerTutorial
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: b2fd74f4-b7f6-4c07-814d-31e0ccdeac89
+    PortName: Next
+    TargetNodeGuid: d03c13d3-2c76-4f3b-974c-f39a5ef2ddb1
+  - BaseNodeGuid: d03c13d3-2c76-4f3b-974c-f39a5ef2ddb1
+    PortName: Who are you.
+    TargetNodeGuid: f8615de1-4b78-42a6-ac47-4e27d1da3116
+  - BaseNodeGuid: d03c13d3-2c76-4f3b-974c-f39a5ef2ddb1
+    PortName: Calm down I don't even know who I am.
+    TargetNodeGuid: d2d4e54c-8ba1-4d5b-a462-b3503042b1ca
+  - BaseNodeGuid: d03c13d3-2c76-4f3b-974c-f39a5ef2ddb1
+    PortName: Try.
+    TargetNodeGuid: 0aaa2457-3208-4876-a3af-26a0731e21aa
+  - BaseNodeGuid: d2d4e54c-8ba1-4d5b-a462-b3503042b1ca
+    PortName: I don't know. All I know is I woke up in a cave alone and naked.
+    TargetNodeGuid: c32eff49-9244-4fcc-8f9c-8fcf9134869f
+  - BaseNodeGuid: 6614d2f2-9450-4347-b661-a5f5a00fb30c
+    PortName: yknow... the village
+    TargetNodeGuid: 068a408e-22a8-45d1-9ef1-9d2518d9dcc0
+  - BaseNodeGuid: 068a408e-22a8-45d1-9ef1-9d2518d9dcc0
+    PortName: No I live just up there past your gate.
+    TargetNodeGuid: 692add48-aee4-4f7e-8bc8-561d605c8a14
+  - BaseNodeGuid: f8615de1-4b78-42a6-ac47-4e27d1da3116
+    PortName: ...the village
+    TargetNodeGuid: 6614d2f2-9450-4347-b661-a5f5a00fb30c
+  - BaseNodeGuid: f8615de1-4b78-42a6-ac47-4e27d1da3116
+    PortName: A cave
+    TargetNodeGuid: f0c2451b-f5d6-49c9-9d47-492cd9fff2d9
+  - BaseNodeGuid: f0c2451b-f5d6-49c9-9d47-492cd9fff2d9
+    PortName: Who are you anyway.
+    TargetNodeGuid: ae856ac3-e1db-4f3a-8113-5eb1bcba30b5
+  - BaseNodeGuid: d2d4e54c-8ba1-4d5b-a462-b3503042b1ca
+    PortName: I forgot
+    TargetNodeGuid: 3523defd-f5f3-40b6-8567-0d238ba4359d
+  - BaseNodeGuid: f8615de1-4b78-42a6-ac47-4e27d1da3116
+    PortName: I don't know
+    TargetNodeGuid: 3523defd-f5f3-40b6-8567-0d238ba4359d
+  - BaseNodeGuid: 3523defd-f5f3-40b6-8567-0d238ba4359d
+    PortName: Yes
+    TargetNodeGuid: 6b9c7176-35cb-4688-877b-0212b80a1417
+  - BaseNodeGuid: 3523defd-f5f3-40b6-8567-0d238ba4359d
+    PortName: No
+    TargetNodeGuid: dd2375c3-85c9-4d7b-8232-5760277f0ca4
+  - BaseNodeGuid: f0c2451b-f5d6-49c9-9d47-492cd9fff2d9
+    PortName: ...
+    TargetNodeGuid: c32eff49-9244-4fcc-8f9c-8fcf9134869f
+  DialogueNodeData:
+  - GUID: 0aaa2457-3208-4876-a3af-26a0731e21aa
+    DialogueText: I warned you!
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 1008, y: 58.666664}
+  - GUID: d2d4e54c-8ba1-4d5b-a462-b3503042b1ca
+    DialogueText: Liar! How do you not even know your damn name.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 1008, y: 200}
+  - GUID: d03c13d3-2c76-4f3b-974c-f39a5ef2ddb1
+    DialogueText: Stop! One step and I let this arrow through your eye.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 206.66667, y: 200}
+  - GUID: 6614d2f2-9450-4347-b661-a5f5a00fb30c
+    DialogueText: What village?
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 1940.6666, y: 916}
+  - GUID: f8615de1-4b78-42a6-ac47-4e27d1da3116
+    DialogueText: That's not important I need to know where you're from!
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 1281.3334, y: 765.3334}
+  - GUID: f0c2451b-f5d6-49c9-9d47-492cd9fff2d9
+    DialogueText: You sure look like it.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 1940.6666, y: 765.3334}
+  - GUID: 692add48-aee4-4f7e-8bc8-561d605c8a14
+    DialogueText: That's my house.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 3228, y: 1057.3333}
+  - GUID: ae856ac3-e1db-4f3a-8113-5eb1bcba30b5
+    DialogueText: 'The names Sergeant Nicolas. You should be glad you stumbled out
+      of a cave I have orders to shoot anyone approaching Ishul from the City. '
+    CharacterName: Nicolas
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 2452, y: 765.3334}
+  - GUID: 068a408e-22a8-45d1-9ef1-9d2518d9dcc0
+    DialogueText: 'You don''t have any clue where you''re are do you? '
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 2452, y: 916}
+  - GUID: c32eff49-9244-4fcc-8f9c-8fcf9134869f
+    DialogueText: That's probably for the best, means you probably don't have the
+      plague.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 2452, y: 200}
+  - GUID: 3523defd-f5f3-40b6-8567-0d238ba4359d
+    DialogueText: How do you not know are you daft.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 1940.6666, y: 479.3333}
+  - GUID: 6b9c7176-35cb-4688-877b-0212b80a1417
+    DialogueText: At least you're honest.
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 2452, y: 408.66666}
+  - GUID: dd2375c3-85c9-4d7b-8232-5760277f0ca4
+    DialogueText: 'Congratulations on '
+    CharacterName: ???
+    CharacterPortrait: {fileID: 0}
+    Position: {x: 2452, y: 550}
