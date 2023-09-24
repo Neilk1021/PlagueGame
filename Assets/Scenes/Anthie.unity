@@ -15908,6 +15908,7 @@ PrefabInstance:
     - {fileID: 419630226, guid: 1904d409172c9524ea969ae86950e842, type: 3}
     - {fileID: 6122801239742255635, guid: 1904d409172c9524ea969ae86950e842, type: 3}
     - {fileID: 419630227, guid: 1904d409172c9524ea969ae86950e842, type: 3}
+    - {fileID: 1508676376, guid: 1904d409172c9524ea969ae86950e842, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1904d409172c9524ea969ae86950e842, type: 3}
 --- !u!1 &1723138138
 GameObject:
