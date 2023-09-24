@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using RPG.Inventory;
 using RPG.Attributes;
+using RPG.Core;
 
 namespace RPG.Abilities
 {
@@ -31,6 +32,9 @@ namespace RPG.Abilities
             if(mana < manaCost) { return; }
 
             AbilityData data = new AbilityData(user);
+
+            user.GetComponent<ActionSchedular>().StartAction(data);
+
             targetingStrategy.StartTargeting(data, 
                 () => 
                 TargetAquired(data));
@@ -38,6 +42,8 @@ namespace RPG.Abilities
 
         private void TargetAquired(AbilityData data)
         {
+            if (data.isCancelled()) { return; }
+
             Mana mana = data.GetUser().GetComponent<Mana>();
             if (mana == null) {
                 Debug.LogError("No mana component");

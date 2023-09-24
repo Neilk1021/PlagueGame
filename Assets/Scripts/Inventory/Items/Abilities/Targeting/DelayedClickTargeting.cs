@@ -27,10 +27,11 @@ namespace RPG.Abilities.Targeting
 
         private IEnumerator Targeting(AbilityData data, PlayerController playerController, Action finished)
         {
+
             playerController.enabled = false;
             targetingPrefabInstance.gameObject.SetActive(true);
             targetingPrefabInstance.GetChild(0).localScale = new Vector3(areaAffectRadius * 2 *.4f, 1, areaAffectRadius * 2*.4f);
-            while (true)
+            while (!data.isCancelled())
             {
                 Cursor.SetCursor(cursorTexture, cursorHotspot, CursorMode.Auto);
                 RaycastHit raycastHit;
@@ -49,6 +50,10 @@ namespace RPG.Abilities.Targeting
 
                 yield return null;
             }
+
+            targetingPrefabInstance.gameObject.SetActive(false);
+            playerController.enabled = true;
+            finished();
         }
 
         IEnumerable<GameObject> GetGameObjectsInRadius(Vector3 Point)

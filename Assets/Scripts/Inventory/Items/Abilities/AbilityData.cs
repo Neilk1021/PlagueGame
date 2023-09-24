@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using RPG.Core;
+
 
 namespace RPG.Abilities
 {
-    public class AbilityData
+    public class AbilityData : IAction
     {
         GameObject user;
         Vector3 TargetPoint;
         IEnumerable<GameObject> targets;
         CinemachineVirtualCamera Camera;
+        bool cancelled = false; 
 
         public CinemachineVirtualCamera GetCamera() { return Camera; }
         public void SetCamera(CinemachineVirtualCamera setCamera) { Camera = setCamera; }
@@ -41,6 +44,12 @@ namespace RPG.Abilities
             user.GetComponent<MonoBehaviour>()?.StartCoroutine(enumerator);
         }
 
+        public void Cancel()
+        {
+            cancelled = true;
+        }
+
+        public bool isCancelled() { return cancelled;  }
     }
 
 }
