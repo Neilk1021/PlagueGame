@@ -1,8 +1,6 @@
 *.cs diff=csharp text
 *.cginc text
 *.shader text
-*.asset                 merge=unityyamlmerge eol=lf
-*.terrain.asset binary
 *.mat merge=unityyamlmerge eol=lf
 *.anim merge=unityyamlmerge eol=lf
 *.unity merge=unityyamlmerge eol=lf
