@@ -8808,7 +8808,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1562698994}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 4cddc4cbc37a61144b8cda15abe59153, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 05881a7fde9653f499f0ceb05f13df84, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1562698996
 Terrain:
@@ -8819,7 +8819,7 @@ Terrain:
   m_GameObject: {fileID: 1562698994}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 4cddc4cbc37a61144b8cda15abe59153, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 05881a7fde9653f499f0ceb05f13df84, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -15734,19 +15734,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8455824195981577651, guid: 1904d409172c9524ea969ae86950e842, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455824195981577651, guid: 1904d409172c9524ea969ae86950e842, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455824195981577651, guid: 1904d409172c9524ea969ae86950e842, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 175.65
       objectReference: {fileID: 0}
     - target: {fileID: 8455824195981577651, guid: 1904d409172c9524ea969ae86950e842, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 8456624214300901560, guid: 1904d409172c9524ea969ae86950e842, type: 3}
       propertyPath: m_NavMeshLayer
