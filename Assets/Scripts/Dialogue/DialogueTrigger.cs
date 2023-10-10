@@ -51,7 +51,7 @@ namespace RPG.Dialogue
         {
             if (cantTalk) return false;
             if (Vector3.Distance(transform.position, callingCon.transform.position) > DistanceToInteract) return false;
-            if (!callingCon.GetComponent<Move>().CanMoveTo(transform.position)) return false;
+            //if (!callingCon.GetComponent<Move>().CanMoveTo(transform.position)) return false;
 
             if (Input.GetMouseButtonDown(0))
             {

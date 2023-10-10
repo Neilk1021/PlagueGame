@@ -2,14 +2,17 @@ using System.Collections;
 using UnityEngine;
 using RPG.Control;
 using RPG.Inventory;
+using RPG.Saving;
 
 namespace RPG.Combat
 {
-    public class WeaponPickup : MonoBehaviour, IRaycastable
+    public class WeaponPickup : MonoBehaviour, IRaycastable, ISaveable
     {
         [SerializeField] Item item;
         [SerializeField] float respawnTime = 5f;
         [SerializeField] float DistanceToPickUp = 5f;
+        [SerializeField] bool respawn = false;
+        private bool picked = false; 
         [SerializeField] CursorType cursorType = CursorType.PickUp;
 
         private void OnTriggerEnter(Collider other)
@@ -35,6 +38,8 @@ namespace RPG.Combat
 
         private void ShowPickUp()
         {
+            if(picked && !respawn) { return; }
+
             GetComponent<Collider>().enabled = true;
             foreach (Transform child in transform)
             {
@@ -59,6 +64,7 @@ namespace RPG.Combat
                 //PickUp(callingCon.GetComponent<Fighter>());
                 if (callingCon.PickUp(item))
                 {
+                    picked = true;
                     StartCoroutine(HideForSeconds(respawnTime));
                 }
             }
@@ -69,6 +75,19 @@ namespace RPG.Combat
         public CursorType GetCursorType()
         {
             return cursorType;
+        }
+
+        public object CaptureState()
+        {
+            return picked;
+        }
+
+        public void RestoreState(object state)
+        {
+            if((bool)state && respawn == false)
+            {
+                HidePickUp();
+            }
         }
     }
 

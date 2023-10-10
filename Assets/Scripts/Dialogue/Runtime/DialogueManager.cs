@@ -8,8 +8,11 @@ namespace RPG.Dialogue
     public class DialogueManager : MonoBehaviour
     {
         [SerializeField] Image CharSprite;
+        [SerializeField] GameObject Frame;
         [SerializeField] GameObject DialogueCont;
         [SerializeField] TextMeshProUGUI DialogueBox, NameBox;
+        [SerializeField] Vector2[] DialogueBoxPos;
+        [SerializeField] Vector2[] NameBoxPos;
         [SerializeField] Button[] Choices; 
 
         static NodeLinkData currentLink;
@@ -83,7 +86,17 @@ namespace RPG.Dialogue
         {
             DialogueBox.text = currentNode.DialogueText;
             NameBox.text = currentNode.CharacterName;
-            CharSprite.sprite = currentNode.CharacterPortrait;
+            if (currentNode.CharacterPortrait != null) {
+                Frame.SetActive(true);
+                CharSprite.sprite = currentNode.CharacterPortrait;
+                DialogueBox.rectTransform.position = DialogueBoxPos[0];
+                NameBox.rectTransform.position = NameBoxPos[0];
+            }
+            else {
+                Frame.SetActive(false);
+                DialogueBox.rectTransform.anchoredPosition = DialogueBoxPos[1];
+                NameBox.rectTransform.anchoredPosition = NameBoxPos[1];
+            }
 
             ResetButtons();
             for (int i = 0; i < LinkChoices.Count; i++)
