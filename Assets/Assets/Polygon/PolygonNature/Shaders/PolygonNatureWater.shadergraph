@@ -38,6 +38,9 @@
         },
         {
             "m_Id": "f9dc48bc87644a80b44b7c01c95ffd7a"
+        },
+        {
+            "m_Id": "76ed23b3fe8b4706864edff5d8c0ce87"
         }
     ],
     "m_Keywords": [],
@@ -737,20 +740,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "81e39f9c3764388991e837e587b891f5"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "42c5460c9cfe46689a69e865867fe851"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "88f1387c47d74c4fabd97ca9effedbfa"
                 },
                 "m_SlotId": 3
@@ -1171,8 +1160,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 9535.333984375,
-            "y": 1653.3333740234375
+            "x": 10534.6669921875,
+            "y": 1763.3333740234375
         },
         "m_Blocks": [
             {
@@ -5144,6 +5133,33 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
+    "m_ObjectId": "76ed23b3fe8b4706864edff5d8c0ce87",
+    "m_Guid": {
+        "m_GuidSerialized": "a7b524bf-fa0d-4072-9fbf-22c0ae2b3547"
+    },
+    "m_Name": "Dir",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Dir",
+    "m_DefaultReferenceName": "_Dir",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "77f5a70fcbb9c58cbb453661afbbc4d7",
@@ -6746,6 +6762,9 @@
         },
         {
             "m_Id": "f9dc48bc87644a80b44b7c01c95ffd7a"
+        },
+        {
+            "m_Id": "76ed23b3fe8b4706864edff5d8c0ce87"
         }
     ]
 }
@@ -8151,10 +8170,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 10511.333984375,
+            "y": 1760.666748046875,
+            "width": 200.0,
+            "height": 42.6666259765625
         }
     },
     "m_Slots": [

@@ -11340,7 +11340,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 968421017}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -22425,7 +22425,7 @@ GameObject:
   m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!224 &1499917375
@@ -23264,7 +23264,7 @@ GameObject:
   m_Name: DialogueWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &1558118574
@@ -23281,7 +23281,7 @@ RectTransform:
   m_Children:
   - {fileID: 1499917375}
   m_Father: {fileID: 968421017}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -23301,17 +23301,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharSprite: {fileID: 451144694}
-  Frame: {fileID: 0}
+  Frame: {fileID: 1019467600}
   DialogueCont: {fileID: 1499917374}
   DialogueBox: {fileID: 6597386090554453488}
   NameBox: {fileID: 1448597555341905799}
-  DialogueBoxPos: []
-  NameBoxPos: []
+  DialogueBoxPos:
+  - {x: 750, y: 175}
+  - {x: 500, y: 175}
+  NameBoxPos:
+  - {x: 750, y: 250}
+  - {x: 500, y: 250}
   Choices:
   - {fileID: 248420681978543650}
   - {fileID: 2358277779093544440}
   - {fileID: 6183084984487483631}
-  currentDialogue: {fileID: 11400000, guid: d45368d82e8d56140b63fa4cf2c661cc, type: 2}
+  currentDialogue: {fileID: 0}
 --- !u!1 &1564724924
 GameObject:
   m_ObjectHideFlags: 0
@@ -28514,7 +28518,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.52635187, y: 0.6285536, z: -0.35728073, w: 0.60301393}
+  m_margin: {x: 0.52635187, y: 0.6285536, z: -250.96956, w: 0.60301393}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -29040,7 +29044,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.011810347, y: 1.5223827, z: 40.82463, w: 28.148888}
+  m_margin: {x: -0.011810347, y: 1.5223827, z: -249.98026, w: 28.148888}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -31188,7 +31192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5233280123340376149, guid: e60ee9ef7bb22c34c8ac4f5e72617d56, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5310263559442021040, guid: e60ee9ef7bb22c34c8ac4f5e72617d56, type: 3}
       propertyPath: m_AnchorMax.y

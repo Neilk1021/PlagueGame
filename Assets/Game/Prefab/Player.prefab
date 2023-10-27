@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: m_AngularSpeed
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 6287884670328920636, guid: bd08e326f9fb5e44f8634183ed2c7e93, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6956094105400369184, guid: bd08e326f9fb5e44f8634183ed2c7e93, type: 3}
       propertyPath: Anim
       value: 
@@ -311,6 +315,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   experiencePoints: 0
+--- !u!114 &3919126727230075868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8603751358157798404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3079c46b6192847b19a5853079bccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateUi:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ManaUI, Assembly-CSharp
+        m_MethodName: UpdateManaBar
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6655790856410333403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,4 +356,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorMappings: []
   MaxNavMeshProjection: 1
-  maxPathLength: 35
+  AbilityCount: 0
+--- !u!114 &3493520284077423611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8603751358157798404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a570b0b173b6b4ba13ac6705fd208b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

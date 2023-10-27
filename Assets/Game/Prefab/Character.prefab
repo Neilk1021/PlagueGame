@@ -202,6 +202,9 @@ MonoBehaviour:
   progression: {fileID: 11400000, guid: 8e7cec068140e0e47a02be12a197f755, type: 2}
   Particles: {fileID: 0}
   shouldUseMod: 0
+  onLevelUp:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2791329459009664704
 GameObject:
   m_ObjectHideFlags: 0

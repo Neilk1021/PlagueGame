@@ -26,15 +26,15 @@ MonoBehaviour:
   - GUID: 2cdb8199-1d03-4f6d-a287-3d580d29f4b7
     DialogueText: Well are you going to say something
     CharacterName: <color=#a73bd9>???</color>
-    CharacterPortrait: {fileID: 21300000, guid: 3e488596641c67a41ab34a82ca182742, type: 3}
-    Position: {x: 698, y: 58.666664}
+    CharacterPortrait: {fileID: 21300000, guid: 063dd80135cae7943bab03e12f4c360a, type: 3}
+    Position: {x: 698.4, y: 59.2}
   - GUID: f31810d9-9222-4eeb-bcc8-65227a935142
-    DialogueText: 'Oh... hello you startled me, I thought I was up here alone '
-    CharacterName: <color=#a73bd9>???</color>
-    CharacterPortrait: {fileID: 21300000, guid: 0567efa7ea779fb4abc2dafed8983f50, type: 3}
-    Position: {x: 698, y: 224}
+    DialogueText: Do you dare to challenge me?
+    CharacterName: <color=#a73bd9>The Duelist</color>
+    CharacterPortrait: {fileID: 21300000, guid: 063dd80135cae7943bab03e12f4c360a, type: 3}
+    Position: {x: 698.4, y: 224}
   - GUID: a34f9b26-5a24-430e-b660-6774b7b056a3
     DialogueText: <i><b>!!!!!</b></i>
     CharacterName: <color=#a73bd9>???</color>
-    CharacterPortrait: {fileID: 21300000, guid: 2d74245c2a6d20d4f947f4095b27376a, type: 3}
-    Position: {x: 206.66667, y: 200}
+    CharacterPortrait: {fileID: 21300000, guid: 063dd80135cae7943bab03e12f4c360a, type: 3}
+    Position: {x: 206.4, y: 200}
